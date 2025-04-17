@@ -1,4 +1,4 @@
-# Cmpe256 Hotel Recommendation System
+# CMPE 256 Hotel Recommendation System
 
 ## Objetive
 Choosing the right hotel is often overwhelming due to the vast number of options and diverse user preferences. **Hotelic** is a personalized hotel recommendation system designed to help users make better decisions by analyzing user reviews, ratings, and metadata using advanced recommender system techniques.
@@ -20,7 +20,7 @@ We used the HotelRec dataset from TripAdvisor. It contains over 50 million revie
 The goal of this project is to create an efficient and reliable recommender system.
 
 ## Algorithms Used
-
+[To be included]
 
 ## Folder Structure
 ```
@@ -90,3 +90,19 @@ To maintain consistency and readability, we follow this structured format:
 - `docs`: Documentation updates
 - `refactor`: Code restructuring without functionality changes
 - `chore`: Maintenance tasks (build processes, dependency updates, etc.)
+
+
+## How to Run
+### 1. Clone the repository
+`git clone https://github.com/Rodarkhen/cmpe256_hotel_recommendation_system.git`
+
+### 2. Install Dependecies
+Create a virtual environment (optional but highly recommended):
+
+`python -m venv venv
+source venv/bin/activate`
+
+Then, install required Python packages with the following command:
+
+`pip install -r requirements.txt`
+
