@@ -11,3 +11,4 @@ __pycache__/
 # Ignore datasets
 /data/raw/*
 /data/raw2/*
+/data/process/*
