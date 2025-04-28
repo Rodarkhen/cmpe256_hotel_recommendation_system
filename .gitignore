@@ -4,6 +4,8 @@ __pycache__/
 
 # Environment
 .env
+venv
+venv-3.8
 
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
@@ -11,3 +13,5 @@ __pycache__/
 # Ignore datasets
 /data/raw/*
 /data/raw2/*
+/data/processed/*
+models/*
