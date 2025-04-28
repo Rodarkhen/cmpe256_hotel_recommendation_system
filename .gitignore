@@ -14,3 +14,4 @@ venv-3.8
 /data/raw/*
 /data/raw2/*
 /data/processed/*
+models/*
