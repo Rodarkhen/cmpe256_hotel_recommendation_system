@@ -20,7 +20,9 @@ We used the HotelRec dataset from TripAdvisor. It contains over 50 million revie
 The goal of this project is to create an efficient and reliable recommender system.
 
 ## Algorithms Used
-[To be included]
+Neural Matrix Factorization  (NeuMF)
+Singular value Decomposition (SVD) combined with sentiment analysis
+Gradenet boost Machine (GBM) combined with sentiment analysis
 
 ## Folder Structure
 ```
@@ -29,35 +31,9 @@ cmpe256_hotel_recommendation_system/
 ├── data/
 │   ├── raw/                      # Original, unprocessed dataset (if small enough)
 │   └── processed/                # Cleaned & preprocessed data ready for modeling
-│
 ├── notebooks/                   # Jupyter/Colab notebooks for EDA, model training, etc.
-│   ├── 01_eda.ipynb             # Exploratory data analysis
-│   ├── 02_preprocessing.ipynb   # Data cleaning & feature engineering
-│   ├── 03_neumf_model.ipynb     # NeuMF model training
-│   ├── 04_sentiment_model.ipynb # Sentiment-aware recommender
-│   └── 05_clustering_model.ipynb# Clustering recommender
-│
 ├── models/                      # Saved model files (e.g. .h5, .pkl, etc.)
-│   ├── neumf_model.h5
-│   └── sentiment_model.pkl
-│
 ├── src/                         # Source code modules (modularized functions/classes)
-│   ├── __init__.py
-│   ├── data_loader.py           # Functions to load and preprocess data
-│   ├── feature_engineering.py   # Feature extraction logic
-│   ├── sentiment_analysis.py    # Sentiment/aspect extraction functions
-│   ├── model_neumf.py           # NeuMF model definition
-│   ├── model_sentiment.py       # Sentiment-aware model definition
-│   └── model_clustering.py      # Clustering logic
-│
-├── outputs/                     # Results like graphs, evaluation reports, metrics
-│   ├── plots/
-│   └── metrics/
-│
-├── report/                      # Final report and presentation
-│   ├── Hotelic_Report.pdf
-│   └── Hotelic_Presentation.pptx
-│
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project overview and instructions
 └── .gitignore                   # Files to ignore (e.g., dataset, model files)
